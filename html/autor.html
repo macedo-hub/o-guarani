@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autor - José de Alencar</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+</head>
+<body>
+  <div class="overlay" id="overlay" onclick="fecharMenu()"></div>
+
+  <header class="cabecalho">
+    <div class="menu-mobile-btn" onclick="toggleMenu()">
+      <div class="traco"></div>
+      <div class="traco"></div>
+      <div class="traco"></div>
+    </div>
+    <nav class="menu">
+      <a href="../index.html" class="botao">Início</a>
+      <a href="leia-assista.html" class="botao">Leia e Assista</a>
+      <a href="autor.html" class="botao">Autor</a>
+      <a href="sobre.html" class="botao">Sobre</a>
+    </nav>
+    <nav class="menu-mobile" id="menuMobile">
+      <span class="fechar-menu" onclick="fecharMenu()">&times;</span>
+      <a href="../index.html" class="botao">Início</a>
+      <a href="leia-assista.html" class="botao">Leia e Assista</a>
+      <a href="autor.html" class="botao">Autor</a>
+      <a href="sobre.html" class="botao">Sobre</a>
+    </nav>
+  </header>
+
+  <main class="conteudo-principal">
+    <h1 class="titulo">José de Alencar</h1>
+    <h2 class="autor">Uma breve biografia</h2>
+
+    <section class="guarani-container">
+        <img src="../img/jose-de-alencar.png" alt="José de Alencar" class="autor-img">
+
+      <p>
+        José Martiniano de Alencar (1829–1877), nascido em Messejana, no Ceará, foi advogado, jornalista, político e romancista. É um dos maiores nomes do romantismo no Brasil e pioneiro em retratar a cultura indígena como parte da identidade nacional. Formado em Direito em São Paulo, trabalhou como redator-chefe de jornais importantes, foi deputado estadual e Ministro da Justiça entre 1868 e 1870. Morreu no Rio de Janeiro, vítima de tuberculose, aos 48 anos, deixando uma obra marcante que influenciou profundamente a literatura e a cultura brasileira.
+      </p>
+    </section>
+
+    <section class="obras">
+      <h2 class="autor">Obras principais</h2>
+
+      <div class="obra-item">
+        <img src="../img/Capa_Livro.jpg" alt="Capa do livro O Guarani">
+        <div>
+          <h3>O Guarani (1857)</h3>
+          <p>
+            Romance indianista que tornou José de Alencar famoso. Conta a história de Peri, um indígena corajoso e leal, e sua relação com a família portuguesa de Dom Antônio, especialmente com Cecília.
+          </p>
+        </div>
+      </div>
+
+      <div class="obra-item">
+        <img src="../img/iracema.jpg" alt="Capa do livro Iracema">
+        <div>
+          <h3>Iracema (1865)</h3>
+          <p>
+            Um dos marcos do indianismo literário. Narra o amor mítico entre a indígena Iracema e o europeu Martim, simbolizando a formação do povo brasileiro.
+          </p>
+        </div>
+      </div>
+
+      <div class="obra-item">
+        <img src="../img/ubirajara.jpg" alt="Capa do livro Ubirajara">
+        <div>
+          <h3>Ubirajara (1874)</h3>
+          <p>
+            Completa a trilogia indianista junto com O Guarani e Iracema. Mistura aventura, mitologia indígena e uma visão idealizada da nação brasileira.
+          </p>
+        </div>
+      </div>
+
+      <div class="obra-item">
+        <img src="../img/senhora.jpg" alt="Capa do livro Senhora">
+        <div>
+          <h3>Senhora (1875)</h3>
+          <p>
+            Romance urbano ambientado na corte carioca. Aurélia, a protagonista, é uma mulher independente que desafia os costumes e o machismo da sociedade da época.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/menu.js"></script>
+</body>
+</html>

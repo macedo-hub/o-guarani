@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo - O Guarani</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="overlay" id="overlay" onclick="fecharMenu()"></div>
+
+  <header class="cabecalho">
+    <div class="menu-mobile-btn" onclick="toggleMenu()">
+      <div class="traco"></div>
+      <div class="traco"></div>
+      <div class="traco"></div>
+    </div>
+    <nav class="menu">
+      <a href="../index.html" class="botao">Início</a>
+      <a href="leia-assista.html" class="botao">Leia e Assista</a>
+      <a href="autor.html" class="botao">Autor</a>
+      <a href="sobre.html" class="botao">Sobre</a>
+    </nav>
+    <nav class="menu-mobile" id="menuMobile">
+      <span class="fechar-menu" onclick="fecharMenu()">&times;</span>
+      <a href="../index.html" class="botao">Início</a>
+      <a href="leia-assista.html" class="botao">Leia e Assista</a>
+      <a href="autor.html" class="botao">Autor</a>
+      <a href="sobre.html" class="botao">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="recursos-section">
+      <div class="iframe-box">
+        <h1>Livro em PDF</h3>
+        <iframe src="../pdf/o-guarani.pdf" width="100%" height="600px"></iframe>
+      </div>
+
+      <div class="iframe-box">
+        <h1>Filme: O Guarani (1996)</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/H_t79RdEt8Y?si=EpXUkh2HjAfZJHAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+  <script src="../js/menu.js"></script>
+</body>
+</html>
